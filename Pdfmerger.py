@@ -61,7 +61,7 @@ def merge_files(input_folder, output_folder):
 
     merger.close()
 
-input_folder = r"C:\Users\Eden\Desktop\PDFinput"
-output_folder = r"C:\Users\Eden\Desktop\PDFoutput"
+input_folder = r"path to input folder"
+output_folder = r"path to output folder"
 os.makedirs(output_folder, exist_ok=True)
 merge_files(input_folder, output_folder)
