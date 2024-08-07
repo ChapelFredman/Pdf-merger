@@ -27,8 +27,9 @@ pip install PyPDF2 docx2pdf Pillow tkinter
 
 #### 1) Create Input and Output Folders:
    - Create two folders on your desktop named "PDFinput" and "PDFoutput".
-   - Place the files you want to merge into the "PDFinput" folder.
    - Change the input and output paths on the code to be the new folders you created
+   - Place the files you want to merge into the "PDFinput" folder.
+   
 
 #### 2) Run the script:
    - Execute the Python script/
