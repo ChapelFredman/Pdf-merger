@@ -1,30 +1,37 @@
 ## Merge Word, PDF, and Image Files into a Single PDF
 
-### Overview
-This Python script merges Word documents, PDFs, and images into a single PDF file. It offers user-friendly features like error handling, progress indication (can be added), and customizable output filenames.
 
-### Installation
-Ensure you have the following libraries installed:
+### Objective
+This Python script merges multiple Word, PDF, and image files into a single PDF document. It provides a user-friendly interface for selecting input and output folders and specifying the output filename.
 
-* `PyPDF2`
-* `docx2pdf`
-* `Pillow`
-* `tkinter`
+### Skills Learned
+* Python programming fundamentals (file I/O, function definition, error handling)
+* Working with PDF files (PyPDF2 library)
+* Converting Word documents to PDF (docx2pdf library)
+* Image processing (PIL library)
+* Basic GUI development (tkinter library)
+
+### Tools Used
+Python libraries:
+- PyPDF2
+- Docx2pdf
+- Pillow
+- Tkinter
 
 You can install them using pip:
 
-```bash pip install PyPDF2 docx2pdf Pillow tkinter```
+```bash
+pip install PyPDF2 docx2pdf Pillow tkinter
+```
+### Steps
 
-### Usage:
+#### 1) Create Input and Output Folders:
+   - Create two folders on your desktop named "PDFinput" and "PDFoutput".
+   - Place the files you want to merge into the "PDFinput" folder.
+   - Change the input and output paths on the code to be the new folders you created
 
-1) Place your Word, PDF, and image files in the specified input folder.
-2) Run the script.
-3) A dialog box will appear asking for the desired output filename.
-4) The merged PDF will be saved in the specified output folder.
-
-### Script Functionality:
-
-Converts Word documents to PDF format.
-Merges PDF and image files into a single PDF.
-Provides a user-friendly interface for specifying the output filename.
-Handles empty input folders with an error message.
+#### 2) Run the script:
+   - Execute the Python script/
+   - A dialog box will appear prompting you to enter the desired output filename
+   - The merged PDF will be saved in the "PDFoutput" folder
+   
